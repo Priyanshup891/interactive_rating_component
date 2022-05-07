@@ -17,6 +17,7 @@
 
 body{
     color: var(--white);
+    font-family: 'Overpass', sans-serif;
 }
 
 .container{

@@ -2,9 +2,11 @@ import React from 'react';
 
 import './ratingButton.css';
 
-const RatingButton = () => {
+const RatingButton = ({rateNumber}) => {
   return (
-    <div>RatingButton</div>
+    <button className='rating-btn'>
+      {rateNumber}
+    </button>
   )
 }
 

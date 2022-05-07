@@ -1,0 +1,18 @@
+.rating-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: hsl(213, 19%, 22%);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.198);
+    color: var(--light-grey);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rating-btn:hover{
+    transform:  scale(1.1);
+    background-color: var(--light-grey);
+    color: hsl(213, 19%, 22%);
+}
