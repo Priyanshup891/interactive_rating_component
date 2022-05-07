@@ -11,6 +11,10 @@
     cursor: pointer;
 }
 
+.rating-btn:focus{
+    outline: none;
+}
+
 .rating-btn:hover{
     transform:  scale(1.1);
     background-color: var(--light-grey);

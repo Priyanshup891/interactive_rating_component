@@ -1,13 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import './ratingButton.css';
 
-const RatingButton = ({rateNumber}) => {
+const RatingButton = ({rateNumber, onClick}) => {
+
+
   return (
-    <button className='rating-btn'>
+    <button value={rateNumber} className='rating-btn' onClick={onClick}>
       {rateNumber}
     </button>
   )
 }
 
-export default RatingButton
+export default RatingButton;
